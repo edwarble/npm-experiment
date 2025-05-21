@@ -31,4 +31,3 @@ export default [
     rules: reactHooksPlugin.configs.recommended.rules,
   },
 ];
-
