@@ -2,7 +2,7 @@ import { expect, test } from "vitest";
 
 test("GitHub API returns the right response", async () => {
   const data = await fetch(
-    "https://api.github.com/repos/mdn/content/stats/commit_activity",
+    "https://api.github.com/repos/ziglang/zig/stats/commit_activity",
   ).then((res) => res.json());
   // A year has 52 weeks
   expect(data).toHaveLength(52);
